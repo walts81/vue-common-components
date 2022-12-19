@@ -1,8 +1,21 @@
 {
   "name": "@walts81/vue-common-components",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "Vue3 library for TypeScript with common components using Bootstrap",
+  "homepage": "https://github.com/walts81/vue-common-components",
+  "author": {
+    "name": "Josh Walters",
+    "email": "josh.walters@outlook.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "walts81/vue-common-components"
+  },
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build",
     "postversion": "git push && git push --tags",
