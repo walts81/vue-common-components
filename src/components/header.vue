@@ -8,6 +8,7 @@
     <div v-if="hideBack" style="width: 86.328px">&nbsp;</div>
     <h1 class="title" @click="onTitleClick()">{{ title }}</h1>
     <img v-if="!!logo" class="logo" :src="logo" @click="onLogoClick()" />
+    <div v-if="!logo">&nbsp;</div>
   </div>
 </template>
 
