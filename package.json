@@ -1,6 +1,6 @@
 {
   "name": "@walts81/vue-common-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Vue3 library for TypeScript with common components using Bootstrap",
   "homepage": "https://github.com/walts81/vue-common-components",
